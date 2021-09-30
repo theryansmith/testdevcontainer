@@ -18,7 +18,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	"initializeCommand": "vault login -namespace='' -address='https://live01-ncsa.vault.ubisoft.com:8200' -method=oidc",
+	// "initializeCommand": "wget https://releases.hashicorp.com/vault/1.8.3/vault_1.8.3_linux_amd64.zip && unzip vault_1.8.3_linux_amd64.zip && mv vault /usr/local/bin/ && vault login -namespace='' -address='https://live01-ncsa.vault.ubisoft.com:8200' -method=oidc",
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
 
